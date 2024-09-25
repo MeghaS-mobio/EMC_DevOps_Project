@@ -3,7 +3,7 @@
 # The '*' pattern is global owners.
 
 # These are the default owners for the whole content of the `EMC_DevOps_Project` repository. The default owners are automatically added as reviewers when you open a pull request, unless different owners are specified in the file.
-*         @MeghaS-mobio
+*        @MeghaS-mobio
 
 # github folder owner
 */.github/  @MeghaS-mobio
