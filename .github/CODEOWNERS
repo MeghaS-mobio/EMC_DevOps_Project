@@ -1,0 +1,21 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+# The '*' pattern is global owners.
+
+# These are the default owners for the whole content of the `EMC_DevOps_Project` repository. The default owners are automatically added as reviewers when you open a pull request, unless different owners are specified in the file.
+*         @MeghaS-mobio
+
+# Review for all pull requests
+*         @MeghaS-mobio
+
+# JavaScript files require approval from the JS team.
+*.js      @MeghaS-mobio
+
+# Any changes in the `/lwc` directory will require approval from lwc-dev-team.
+force-app/main/default/lwc/*               @MeghaS-mobio
+
+# Any changes in the `/staticresources` directory is owned by the media team.
+force-app/main/default/staticresources/*   @MeghaS-mobio
+
+# All .page files
+force-app/main/default/pages/*   @MeghaS-mobio
